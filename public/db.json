@@ -1,0 +1,94 @@
+{
+    "guitars": [
+        {
+            "id": 0,
+            "imageUrl": "https://www.muztorg.ru/files/sized/f250x250/4n4/edt/et3/qww/0g0/ko4/c00/8oc/w/4n4edtet3qww0g0ko4c008ocw.jpeg",
+            "name": "Gibson Les Paul",
+            "types": [0,1],
+            "options": ["+ Струны", "+ Кейс"],
+            "price": 4240,
+            "category": 0,
+            "rating": 4
+        },
+        {
+            "id": 1,
+            "imageUrl": "https://www.muztorg.ru/files/sized/f250x250/ceb/cts/53y/cgk/owk/800/8og/00s/8/cebcts53ycgkowk8008og00s8.jpeg",
+            "name": "Gibson SG Tribute Vintage",
+            "types": [0,1],
+            "options": ["+ Струны", "+ Кейс"],
+            "price": 2240,
+            "category": 0,
+            "rating": 6
+        },
+        {
+            "id": 2,
+            "imageUrl": "https://www.muztorg.ru/files/sized/f250x250/9bw/4n4/kz7/g0s/04k/w0k/cow/o48/s/9bw4n4kz7g0s04kw0kcowo48s.jpeg",
+            "name": "Gibson EDS Double Neck",
+            "types": [0,1],
+            "options": ["+ Струны", "+ Кейс"],
+            "price": 9980,
+            "category": 0,
+            "rating": 4
+        },
+        {
+            "id": 3,
+            "imageUrl": "https://avatars.mds.yandex.net/get-mpic/5220597/img_id8433198049456476759.jpeg/orig",
+            "name": "Jackson USA RR1",
+            "types": [0,1],
+            "options": ["+ Cтруны", "+ Кейс"],
+            "price": 6720,
+            "category": 1,
+            "rating": 2
+        },
+        {
+            "id": 4,
+            "imageUrl": "https://sidex.ru/images_offers/1182/1182404/thumb/dean_razorback_twotone_1.jpg",
+            "name": "Dean Razorback DB",
+            "types": [0,1],
+            "options": ["+ Струны", "+ Кейс"],
+            "price": 1795,
+            "category": 2,
+            "rating": 8
+        },
+        {
+            "id": 5,
+            "imageUrl": "https://www.bigtv.ru/storage/goodsImages/95/95863/300x300-95863_1.webp",
+            "name": "Dean ML 79",
+            "types": [0,1],
+            "options": ["+ Струны", "+ Кейс"],
+            "price": 1350,
+            "category": 2,
+            "rating": 2
+        },
+        {
+            "id": 6,
+            "imageUrl": "https://img.dynatone.ru/image/cache/_product/dt55259_148870-350x300.jpeg",
+            "name": "Fender Stratocaster",
+            "types": [0,1],
+            "options": ["+ Струны", "+ Кейс"],
+            "price": 3120,
+            "category": 3,
+            "rating": 9
+        },
+        {
+            "id": 7,
+            "imageUrl": "https://img.dynatone.ru/image/cache/_product/dt56150_134933-350x300.jpeg",
+            "name": "Fender Telecaster",
+            "types": [0,1],
+            "options": ["+ Струны", "+ Кейс"],
+            "price": 2520,
+            "category": 3,
+            "rating": 10
+        },
+        {
+            "id": 8,
+            "imageUrl": "https://img.dynatone.ru/image/cache/_product/dt42432_113999-350x300.jpeg",
+            "name": "Ibanez RG652 Prestige",
+            "types": [0,1],
+            "options": ["+ Струны", "+ Кейс"],
+            "price": 920,
+            "category": 4,
+            "rating": 10
+        }
+    ]
+}

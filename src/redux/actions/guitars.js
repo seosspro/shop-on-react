@@ -7,11 +7,10 @@ export const setLoaded = payload => ({
 export const fetchGuitars = (category, sortBy) => dispatch => {
     dispatch(setLoaded(false));
 
-
     axios
         .get(
-            `http://localhost:3001/guitars?${
-                category !==null ? `category=${category}` : ''
+            `/guitars?${
+                category !== null ? `category=${category}` : ''
             }&_sort=${sortBy.type}&_order=${sortBy.order}`
         )
         .then(({ data }) => {

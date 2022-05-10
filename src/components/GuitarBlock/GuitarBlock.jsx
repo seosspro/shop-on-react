@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import Button from './../Button/Button';
 
 function GuitarBlock({
@@ -8,7 +7,7 @@ function GuitarBlock({
     imageUrl,
     price,
     options,
-    types,
+    type,
     onClickAddGuitar,
     addedCount,
 }) {
@@ -17,7 +16,7 @@ function GuitarBlock({
         setActiveItem(addOption);
     };
 
-    const availableTypes = ['Доставка', 'Самовывоз'];
+    const availableType = ['Доставка', 'Самовывоз'];
     const availableOptions = ['+ Струны', '+ Кейс'];
 
     const [delivery, setDelivery] = useState(1);
@@ -31,7 +30,7 @@ function GuitarBlock({
             name,
             imageUrl,
             price,
-            types: types[delivery],
+            type: type[delivery],
             options: options[activeItem],
         };
         onClickAddGuitar(obj);
@@ -43,8 +42,8 @@ function GuitarBlock({
             <h4 className='guitar-block__title'>{name}</h4>
             <div className='guitar-block__selector'>
                 <ul>
-                    {availableTypes &&
-                        availableTypes.map((name, addDeliveryOption) => (
+                    {availableType &&
+                        availableType.map((name, addDeliveryOption) => (
                             <li
                                 className={
                                     delivery === addDeliveryOption
